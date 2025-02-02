@@ -1,0 +1,33 @@
+{
+    "translation": {
+        "home": {
+            "title": "React Todo",
+            "description": "Proyek ini melibatkan implementasi empat aplikasi todo, masing-masing dengan fungsionalitas yang identik tetapi menggunakan alat yang berbeda untuk implementasinya. Semua aplikasi dirancang dengan antarmuka pengguna yang konsisten, memanfaatkan ShadCN UI untuk tampilan yang kohesif dan profesional."
+        },
+        "todos": [
+            {
+                "title": "Todo1",
+                "description": "Aplikasi Todo List pertama hanya menggunakan hook useState dan useEffect serta bergantung sepenuhnya pada props untuk transmisi data antara komponen induk dan anak, sementara notifikasi diimplementasikan secara manual.",
+                "href": "/todo1"
+            },
+            {
+                "title": "Todo2",
+                "description": "Aplikasi Todo List kedua menggunakan hook useState, useEffect, useContext, dan useReducer untuk pengelolaan data dan manajemen status, sementara notifikasi diimplementasikan menggunakan pustaka Notistack.",
+                "href": "/todo2"
+            },
+            {
+                "title": "Todo3",
+                "description": "Proyek Todo List ketiga menggunakan pustaka Redux untuk manajemen status, memungkinkan data terpusat dan akses yang lebih mudah ke setiap status, sementara notifikasi diimplementasikan menggunakan pustaka react-hot-toast.",
+                "href": "/todo3"
+            },
+            {
+                "title": "Todo4",
+                "description": "Todo 4 diimplementasikan menggunakan pustaka Zustand untuk manajemen status, memastikan penanganan status yang efisien dan skalabel, sementara pustaka Sonner digunakan untuk menyampaikan notifikasi, meningkatkan interaksi pengguna dan umpan balik dalam aplikasi.",
+                "href": "/todo4"
+            }
+        ],
+        "all": {
+            "view": "Lihat"
+        }
+    }
+}

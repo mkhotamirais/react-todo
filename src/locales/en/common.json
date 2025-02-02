@@ -1,0 +1,33 @@
+{
+    "translation": {
+        "home": {
+            "title": "React Todo",
+            "description": "This project involves implementing four todo apps, each with identical functionality but utilizing different tools for their respective implementations. All the apps are designed with a consistent user interface, leveraging ShadCN UI for a cohesive and polished appearance."
+        },
+        "todos": [
+            {
+                "title": "Todo1",
+                "description": "The first todo list app only uses the useState and useEffect hooks and relies solely on props for data transmission between parent and child components, and the notifications are implemented manually.",
+                "href": "/todo1"
+            },
+            {
+                "title": "Todo2",
+                "description": "The second todo list app uses the useState, useEffect, useContext, and useReducer hooks for data management and state management, and the notifications are implemented using the Notistack library.",
+                "href": "/todo2"
+            },
+            {
+                "title": "Todo3",
+                "description": "The third to-do list project uses the Redux library for state management, allowing for centralized data and easier access to each state, and the notifications are implemented using the react-hot-toast library.",
+                "href": "/todo3"
+            },
+            {
+                "title": "Todo4",
+                "description": "Todo 4 is implemented using the Zustand library for state management, ensuring efficient and scalable state handling, while the Sonner library is utilized for delivering notifications, enhancing user interaction and feedback within the application.",
+                "href": "/todo4"
+            }
+        ],
+        "all": {
+            "view": "View"
+        }
+    }
+}
