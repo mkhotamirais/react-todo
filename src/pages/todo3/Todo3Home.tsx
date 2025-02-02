@@ -47,7 +47,7 @@ export default function Todo3Home() {
   return (
     <>
       <h1 className="title">Todo3</h1>
-      <div className="flex gap-1 mb-2">
+      <div className="flex flex-wrap gap-1 mb-2">
         {["useState", "useEffect", "react-redux", "@reduxjs/toolkit", "react-hot-toast"].map((item, i) => (
           <div key={i} className="badge">
             {item}

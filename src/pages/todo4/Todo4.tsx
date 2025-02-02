@@ -42,7 +42,7 @@ export default function Todo4() {
       <Toaster richColors position="top-center" />
 
       <h1 className="title">Todo4</h1>
-      <div className="flex gap-1 mb-2">
+      <div className="flex flex-wrap gap-1 mb-2">
         {["useState", "useEffect", "react-redux", "@reduxjs/toolkit", "react-hot-toast"].map((item, i) => (
           <div key={i} className="badge">
             {item}

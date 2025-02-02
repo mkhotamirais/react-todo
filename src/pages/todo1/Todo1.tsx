@@ -128,7 +128,7 @@ export default function Todo1() {
 
       <h1 className="title">Todo1</h1>
       {/* TOOLS */}
-      <div className="flex gap-1 mb-2">
+      <div className="flex flex-wrap gap-1 mb-2">
         {["useState", "useEffect"].map((item, i) => (
           <div key={i} className="badge">
             {item}

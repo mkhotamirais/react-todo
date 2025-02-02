@@ -45,7 +45,7 @@ export default function Todo2Home() {
   return (
     <div>
       <h1 className="title">Todo2</h1>
-      <div className="flex gap-1 mb-2">
+      <div className="flex flex-wrap gap-1 mb-2">
         {["useState", "useEffect", "useContext", "useReducer", "notistack"].map((item, i) => (
           <div key={i} className="badge">
             {item}
